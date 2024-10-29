@@ -27,6 +27,7 @@ h2 {
 a {
     color: var(--link-color);
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
@@ -46,6 +47,10 @@ table, th, td {
     border: 1px solid #ccc;
     padding: 10px;
     color: var(--gray-text);
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
 }
 
 .text-center {
@@ -89,6 +94,13 @@ table, th, td {
 .max-width-50 {
     max-width: 50%;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 
 
 
