@@ -7,15 +7,16 @@
     <meta name="description" content="Descripción de la serie de televisión Community">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="text-center">
         <h1>Community</h1>
     </header>
 
-    <section>
+    <section class="container my-4">
         <h2>Información General</h2>
-        <ul>
+        <ul class="list-unstyled">
             <li><strong>Nombre de la serie:</strong> Community</li>
             <li><strong>Año de estreno:</strong> 2009</li>
             <li><strong>País de origen:</strong> Estados Unidos</li>
@@ -24,16 +25,12 @@
         </ul>
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Sinopsis</h2>
-        <p>
-            Community sigue a un grupo de inadaptados que forman una amistad poco convencional mientras asisten a Greendale Community College. 
-            La serie se centra en Jeff Winger, un abogado que perdió su licencia y debe volver a estudiar. A lo largo de la serie, el grupo se 
-            enfrenta a situaciones cómicas y referencias a la cultura pop mientras navegan por el extraño mundo de Greendale.
-        </p>
+        <p>Community sigue a un grupo de inadaptados que forman una amistad poco convencional mientras asisten a Greendale Community College. La serie se centra en Jeff Winger, un abogado que perdió su licencia y debe volver a estudiar. A lo largo de la serie, el grupo se enfrenta a situaciones cómicas y referencias a la cultura pop mientras navegan por el extraño mundo de Greendale.</p>
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Temporadas y Episodios</h2>
         <ul>
             <li>Temporada 1: 25 episodios</li>
@@ -45,48 +42,56 @@
         </ul>
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Póster Promocional</h2>
-        <img src="https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_.jpg" alt="Póster de Community">
+        <img src="https://m.media-amazon.com/images/M/MV5BOGIwYzNmYTktZWExZC00MzAyLTk4NTItODgwZmIyNWZhNDEyXkEyXkFqcGc@._V1_.jpg" alt="Póster de Community" class="img-fluid">
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Personajes Principales</h2>
-        <table>
-            <tr>
-                <th>Nombre</th>
-                <th>Foto</th>
-                <th>Descripción</th>
-            </tr>
-            <tr>
-                <td>Jeff Winger</td>
-                <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJIP//Z" alt="Britta Perry" width="100"></td>
-                <td>Una ex activista social que intenta siempre hacer lo correcto pero muchas veces falla. Britta es terca pero leal.</td>
-            </tr>
-            <tr>
-                <td>Abed Nadir</td>
-                <td><img src="data:image/jpeg;base64,/9j/4AoUYzkSmayQwjmFCjTkW2kqiEQafCv5CFChQk4//Z" alt="Abed Nadir" width="100"></td>
-                <td>Un estudiante de cine obsesionado con la cultura pop y las películas, que muchas veces ve la vida como si fuera una película.</td>
-            </tr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Foto</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jeff Winger</td>
+                    <td><img src="data:image/jpeg;base64,/9j/4AAQSkZJIP//Z" alt="Jeff Winger" width="100"></td>
+                    <td>Un abogado que vuelve a estudiar tras perder su licencia.</td>
+                </tr>
+                <tr>
+                    <td>Abed Nadir</td>
+                    <td><img src="data:image/jpeg;base64,/9j/4AoUYzkSmayQwjmFCjTkW2kqiEQafCv5CFChQk4//Z" alt="Abed Nadir" width="100"></td>
+                    <td>Un estudiante de cine obsesionado con la cultura pop.</td>
+                </tr>
+            </tbody>
         </table>
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Enlaces de Sitio Oficial y Redes Sociales</h2>
-        <ul>
-            <li><a href="https://www.nbc.com/community" target="_blank">Sitio Oficial</a></li>
-            <li><a href="https://twitter.com/CommunityTV" target="_blank">Twitter Oficial</a></li>
-            <li><a href="https://www.instagram.com/communitytv/" target="_blank">Instagram Oficial</a></li>
+        <ul class="list-unstyled">
+            <li><a href="https://www.nbc.com/community" target="_blank" rel="noopener noreferrer">Sitio Oficial</a></li>
+            <li><a href="https://twitter.com/CommunityTV" target="_blank" rel="noopener noreferrer">Twitter Oficial</a></li>
+            <li><a href="https://www.instagram.com/communitytv/" target="_blank" rel="noopener noreferrer">Instagram Oficial</a></li>
         </ul>
     </section>
 
-    <section>
+    <section class="container my-4">
         <h2>Trailer</h2>
-        <p><a href="https://www.youtube.com/watch?v=DoTvPupZYhw" target="_blank">Ver tráiler de Community en YouTube</a></p>
+        <p><a href="https://www.youtube.com/watch?v=DoTvPupZYhw" target="_blank" rel="noopener noreferrer">Ver tráiler de Community en YouTube</a></p>
     </section>
 
-    <footer>
+    <footer class="text-center my-4">
         <p>Este documento fue creado como un ejercicio para practicar etiquetas HTML.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
